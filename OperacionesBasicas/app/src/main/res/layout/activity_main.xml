@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editNum1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <EditText
+        android:id="@+id/editNum2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <Button
+        android:id="@+id/bsuma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="31dp"
+        app:layout_constraintLeft_toLeftOf="@id/bsuma"
+        tools:layout_editor_absoluteY="326dp" />
+        android:hint="suma"/>
+
+    <Button
+        android:id="@+id/bresta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="239dp"
+        app:layout_constraintLeft_toRightOf="@id/bresta"
+        tools:layout_editor_absoluteY="323dp" />
+        android:hint="resta"/>
+
+    <Button
+        android:id="@+id/bmulti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="29dp"
+        app:layout_constraintLeft_toLeftOf="@id/bmulti"
+        tools:layout_editor_absoluteY="419dp" />
+        android:hint="multiplicacion"/>
+
+    <Button
+        android:id="@+id/bdivision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="233dp"
+        app:layout_constraintLeft_toRightOf="@id/bdivision"
+        tools:layout_editor_absoluteY="422dp" />
+        android:hint="division"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
